@@ -55,21 +55,7 @@ venv\Scripts\activate  # Windows
 #### Using uv
 
 ```bash
-uv pip install -r requirements.txt
-```
-
-#### Using pip
-
-```bash
-pip install -r requirements.txt
-```
-
-#### Using conda
-
-```bash
-conda create -n genai-langchain python=3.10
-conda activate genai-langchain
-conda install --file requirements.txt
+uv add -r requirements.txt
 ```
 
 ### 4. Configure Environment Variables
